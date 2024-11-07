@@ -14,7 +14,7 @@ export const ContactInfo = () => {
             </div>
             <div>
               <h3>Email</h3>
-              <p>john.doe@example.com</p>
+              <p>benru@example.com</p>
             </div>
           </div>
           <div className={styles.contactCard}>
@@ -32,7 +32,7 @@ export const ContactInfo = () => {
             </div>
             <div>
               <h3>LinkedIn</h3>
-              <p>linkedin.com/in/johndoe</p>
+              <p>linkedin.com/in/benru</p>
             </div>
           </div>
           <div className={styles.contactCard}>
@@ -41,7 +41,7 @@ export const ContactInfo = () => {
             </div>
             <div>
               <h3>GitHub</h3>
-              <p>github.com/johndoe</p>
+              <p>github.com/benru</p>
             </div>
           </div>
         </div>

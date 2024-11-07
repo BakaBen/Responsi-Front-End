@@ -11,11 +11,9 @@ export const About = () => {
           className={styles.profileImage}
         />
         <div className={styles.aboutContent}>
-          <h2>John Doe</h2>
+          <h2>Rubben Christiano</h2>
           <p>
-            I am a software engineer with a passion for building innovative
-            solutions. I have experience in a variety of programming languages
-            and technologies, and I'm always eager to learn new skills.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam non asperiores, corrupti iste minus exercitationem ex ea. Praesentium ex voluptatum corporis eligendi architecto magnam officiis a excepturi, impedit facere.
           </p>
         </div>
       </div>
