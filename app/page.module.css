@@ -1,0 +1,155 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.navigation {
+  width: 100%;
+  background-color: #333;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigationList {
+  display: flex;
+  justify-content: center;
+  space-x: 1.5rem;
+}
+
+.navigationLink {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.navigationLink:hover {
+  color: #d1d1d1;
+  background-color: #444;
+}
+
+.aboutSection {
+  width: 100%;
+  padding: 3rem 1rem;
+}
+
+.aboutContainer {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profileImage {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.aboutContent {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.aboutContent h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.aboutContent p {
+  color: #555;
+}
+
+.skillsSection {
+  width: 100%;
+  padding: 3rem 1rem;
+  background-color: #333;
+}
+
+.skillsContainer {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.skillsContainer h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.skillCard {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.skillCard:hover {
+  transform: scale(1.05);
+}
+
+.skillCard img {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.skillCard h3 {
+  font-size: 1.125rem;
+  font-weight: medium;
+}
+
+.contactSection {
+  width: 100%;
+  padding: 3rem 1rem;
+}
+
+.contactContainer {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.contactContainer h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.contactCard {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  space-x: 1rem;
+}
+
+.contactIcon {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+  border-radius: 9999px;
+}
