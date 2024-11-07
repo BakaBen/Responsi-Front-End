@@ -153,3 +153,27 @@
   padding: 0.5rem;
   border-radius: 9999px;
 }
+
+@media screen and (max-width: 768px) {
+  .navigationList {
+    flex-direction: column;
+  }
+
+  .aboutContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .skillsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .contactCard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}

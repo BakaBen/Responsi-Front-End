@@ -19,7 +19,7 @@ export const Skills = () => {
             <img src="/api/placeholder/100/100" alt="JavaScript" />
             <h3>JavaScript</h3>
           </div>
-        </div>
+          </div>
       </div>
     </section>
   );
