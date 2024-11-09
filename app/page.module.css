@@ -17,7 +17,7 @@
 .navigationList {
   display: flex;
   justify-content: center;
-  space-x: 1.5rem;
+  gap: 1rem;
 }
 
 .navigationLink {
@@ -145,7 +145,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
-  space-x: 1rem;
+  gap: 1rem;
 }
 
 .contactIcon {
